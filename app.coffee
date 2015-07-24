@@ -4,9 +4,6 @@ XboxController = require 'xbox-controller'
 control = arDrone.createUdpControl()
 xbox = new XboxController
 
-deadzones =
-  trigger: 40
-  stick: 10000
 stickMax = 32768
 
 resetRef = -> emergency: no, fly: no
