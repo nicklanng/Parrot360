@@ -1,0 +1,9 @@
+{
+  "name": "parrot360",
+  "version": "1.0.0",
+  "description": "Xbox 360 controls for Parrot AR Drone.",
+  "dependencies": {
+    "ar-drone": "^0.3.3",
+    "xbox-controller": "^0.7.0"
+  }
+}
